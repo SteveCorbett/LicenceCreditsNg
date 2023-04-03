@@ -1,0 +1,10 @@
+.licenceCredits {
+    display: block;
+    margin: 10vh auto;
+    padding: 1rem;
+    width: 60vw;
+    height: 80vh;
+    max-height: 80vh;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+}

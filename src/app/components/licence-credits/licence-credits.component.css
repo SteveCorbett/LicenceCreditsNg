@@ -1,0 +1,23 @@
+.self {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+}
+
+.licencePanel {
+    margin: 0.5rem auto;
+    padding: 1rem;
+    flex-grow: 1;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.panels {
+    overflow-y: scroll;
+    padding-right: 6px;
+    margin-top: 0.8rem;
+}
+
+.spaceAfter {
+    margin-bottom: 0.5rem;
+}

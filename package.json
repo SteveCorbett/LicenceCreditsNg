@@ -1,19 +1,27 @@
 {
-  "name": "licence-checker-ng",
-  "version": "0.0.0",
+  "name": "licence-credits-ng",
+  "private": false,
+  "publisher": "Corbett Technologies Pty Ltd",
+  "author": "Stephen Corbett",
+  "version": "1.0.0",
+  "description": "An Angular app to display the licences of all the dependencies in a project.",
+  "license": "0BSD",
+  "keywords": [
+    "license",
+    "angular"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development"
+    "watch": "ng build --watch --configuration development",
+    "prebuild": "node extractLicences.js",
+    "postinstall": "license-checker --production --json > ./licences.json"
   },
-  "private": true,
   "dependencies": {
-    "@angular/animations": "^15.2.0",
     "@angular/common": "^15.2.0",
     "@angular/compiler": "^15.2.0",
     "@angular/core": "^15.2.0",
-    "@angular/forms": "^15.2.0",
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
@@ -25,6 +33,7 @@
     "@angular-devkit/build-angular": "^15.2.4",
     "@angular/cli": "~15.2.4",
     "@angular/compiler-cli": "^15.2.0",
+    "license-checker": "^25.0.1",
     "typescript": "~4.9.4"
   }
 }

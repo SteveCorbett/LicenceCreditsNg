@@ -1,27 +1,39 @@
-# LicenceCheckerNg
+# Licence Credits Ng
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This project demonstrates how to generate and display credits for the third party licences used within an angular application. This code should be easily adaptable to any other JavaScript front end applications, including those built with React. A Vue.Js version of this project can be found at [LicenceCredits](https://github.com/SteveCorbett/LicenceCredits)
 
-## Development server
+There are two package.json scripts that are required to extract and format the licence details.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A post-install script runs the [NPM license-checker](https://www.npmjs.com/package/license-checker) package to create a JSON file containing the licence details of all the production dependancies of the project. Note that License Checker may not be able to identify the licences of those packages whose licence files are not available or are in unusual places. More details can be found in the License Checker documentation.
 
-## Code scaffolding
+A pre-build script is run to parse the extracted JSON file and place it into the assets directory. This script consolidates multiple entries for the same publisher that have the same licence.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+At run-time, the LicenceCredits component reads this file and displays the details.
 
-## Build
+## Using This Code
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This code is provide under the 0BSD licence, meaning that you can use, modify and adapt this code as you see fit. Refer to this project's licence file for details.
 
-## Running unit tests
+First copy the extractLicences.js file into the root directory of the project. Then add the following two scripts into the package.json file:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+    "prebuild": "node extractLicences.js",
+    "postinstall": "license-checker --production --json > ./licences.json"
+```
 
-## Running end-to-end tests
+Add License Checker to the project. If you are using the NPM package manager:
+```
+npm i license-checker --save-dev
+```
+If you are using the Yarn package manager:
+```
+yarn add license-checker 
+``` 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The first time after installing License Checker you will need to maually run the post install and prebuild processes using:
+```
+npm run postinstall
+npm run prebuild
+```
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Finally, add the LicenceCredits component into your project, customise the headings, and apply styling as required.

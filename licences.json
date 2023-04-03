@@ -1,0 +1,80 @@
+{
+  "@angular/animations@15.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/angular/angular",
+    "publisher": "angular",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/animations",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/animations/README.md"
+  },
+  "@angular/common@15.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/angular/angular",
+    "publisher": "angular",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/common",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/common/README.md"
+  },
+  "@angular/compiler@15.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/angular/angular",
+    "publisher": "angular",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/compiler",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/compiler/README.md"
+  },
+  "@angular/core@15.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/angular/angular",
+    "publisher": "angular",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/core",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/core/README.md"
+  },
+  "@angular/platform-browser-dynamic@15.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/angular/angular",
+    "publisher": "angular",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/platform-browser-dynamic",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/platform-browser-dynamic/README.md"
+  },
+  "@angular/platform-browser@15.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/angular/angular",
+    "publisher": "angular",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/platform-browser",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/platform-browser/README.md"
+  },
+  "@angular/router@15.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/angular/angular",
+    "publisher": "angular",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/router",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/router/README.md"
+  },
+  "licence-credits-ng@1.0.0": {
+    "licenses": "0BSD",
+    "publisher": "Stephen Corbett",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/README.md"
+  },
+  "rxjs@7.8.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/reactivex/rxjs",
+    "publisher": "Ben Lesh",
+    "email": "ben@benlesh.com",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/rxjs",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/rxjs/LICENSE.txt"
+  },
+  "tslib@2.5.0": {
+    "licenses": "0BSD",
+    "repository": "https://github.com/Microsoft/tslib",
+    "publisher": "Microsoft Corp.",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/tslib",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/tslib/LICENSE.txt"
+  },
+  "zone.js@0.12.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/angular/angular",
+    "publisher": "Brian Ford",
+    "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/zone.js",
+    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/zone.js/LICENSE"
+  }
+}
+
