@@ -27,7 +27,7 @@ npm i license-checker --save-dev
 ```
 If you are using the Yarn package manager:
 ```
-yarn add license-checker 
+yarn add license-checker --dev
 ``` 
 
 The first time after installing License Checker you will need to maually run the post install and prebuild processes using:
