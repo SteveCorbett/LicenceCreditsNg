@@ -1,10 +1,10 @@
 # Licence Credits Ng
 
-This project demonstrates how to generate and display credits for the third party licences used within an angular application. This code should be easily adaptable to any other JavaScript front end applications, including those built with React. A Vue.Js version of this project can be found at [LicenceCredits](https://github.com/SteveCorbett/LicenceCredits)
+This project demonstrates how to generate and display credits for the third party licences used within an angular application. This code should be easily adaptable to any other JavaScript front end applications, including those built with React. A Vue.Js version of this project can be found at [LicenceCreditsVue](https://github.com/SteveCorbett/LicenceCreditsVue). A JavaScript only version can be found at [LicenceCreditsJs](https://github.com/SteveCorbett/LicenceCreditsJs).
 
 There are two package.json scripts that are required to extract and format the licence details.
 
-A post-install script runs the [NPM license-checker](https://www.npmjs.com/package/license-checker) package to create a JSON file containing the licence details of all the production dependancies of the project. Note that License Checker may not be able to identify the licences of those packages whose licence files are not available or are in unusual places. More details can be found in the License Checker documentation.
+A post-install script runs the [NPM License Checker](https://www.npmjs.com/package/license-checker) package to create a JSON file containing the licence details of all the production dependancies of the project. Note that License Checker may not be able to identify the licences of those packages whose licence files are not available or are in unusual places. More details can be found in the License Checker documentation.
 
 A pre-build script is run to parse the extracted JSON file and place it into the assets directory. This script consolidates multiple entries for the same publisher that have the same licence.
 

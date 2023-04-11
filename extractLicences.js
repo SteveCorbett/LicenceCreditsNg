@@ -19,12 +19,18 @@ try {
     if (key === myName) {
       continue;
     }
-    let packageLicence;
+    let packageLicence = "";
     const name = getNameSansVersion(key);
-    try {
-      packageLicence = fs.readFileSync(value.licenseFile, "utf8");
-    } catch (error) {
-      packageLicence = "";
+    const nameParts = value.licenseFile.split("/");
+    if (
+      nameParts.length > 1 &&
+      nameParts[nameParts.length - 1].toUpperCase() != "README.MD"
+    ) {
+      try {
+        packageLicence = fs.readFileSync(value.licenseFile, "utf8");
+      } catch (error) {
+        // ignore, no licence details will be displayed
+      }
     }
 
     const licence = licences.find(

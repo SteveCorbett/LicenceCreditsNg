@@ -7,6 +7,7 @@
   "description": "An Angular app to display the licences of all the dependencies in a project.",
   "license": "0BSD",
   "keywords": [
+    "licence",
     "license",
     "angular"
   ],

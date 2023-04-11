@@ -52,7 +52,7 @@
     "licenses": "0BSD",
     "publisher": "Stephen Corbett",
     "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg",
-    "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/README.md"
+    "licenseFile": ""
   },
   "rxjs@7.8.0": {
     "licenses": "Apache-2.0",
@@ -77,4 +77,3 @@
     "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/zone.js/LICENSE"
   }
 }
-
