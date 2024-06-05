@@ -21,15 +21,18 @@ try {
     }
     let packageLicence = "";
     const name = getNameSansVersion(key);
-    const nameParts = value.licenseFile.split("/");
-    if (
-      nameParts.length > 1 &&
-      nameParts[nameParts.length - 1].toUpperCase() != "README.MD"
-    ) {
-      try {
-        packageLicence = fs.readFileSync(value.licenseFile, "utf8");
-      } catch (error) {
-        // ignore, no licence details will be displayed
+
+    if (value.licenseFile !== undefined) {
+      const nameParts = value.licenseFile.split("/");
+      if (
+        nameParts.length > 1 &&
+        nameParts[nameParts.length - 1].toUpperCase() != "README.MD"
+      ) {
+        try {
+          packageLicence = fs.readFileSync(value.licenseFile, "utf8");
+        } catch (error) {
+          // ignore, no licence details will be displayed
+        }
       }
     }
 
