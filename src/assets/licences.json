@@ -2,7 +2,6 @@
  "licences": [
   {
    "packages": [
-    "@angular/animations",
     "@angular/common",
     "@angular/compiler",
     "@angular/core",
