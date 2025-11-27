@@ -1,40 +1,40 @@
 {
-  "@angular/common@16.2.12": {
+  "@angular/common@17.3.12": {
     "licenses": "MIT",
     "repository": "https://github.com/angular/angular",
     "publisher": "angular",
     "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/common",
     "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/common/README.md"
   },
-  "@angular/compiler@16.2.12": {
+  "@angular/compiler@17.3.12": {
     "licenses": "MIT",
     "repository": "https://github.com/angular/angular",
     "publisher": "angular",
     "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/compiler",
     "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/compiler/README.md"
   },
-  "@angular/core@16.2.12": {
+  "@angular/core@17.3.12": {
     "licenses": "MIT",
     "repository": "https://github.com/angular/angular",
     "publisher": "angular",
     "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/core",
     "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/core/README.md"
   },
-  "@angular/platform-browser-dynamic@16.2.12": {
+  "@angular/platform-browser-dynamic@17.3.12": {
     "licenses": "MIT",
     "repository": "https://github.com/angular/angular",
     "publisher": "angular",
     "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/platform-browser-dynamic",
     "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/platform-browser-dynamic/README.md"
   },
-  "@angular/platform-browser@16.2.12": {
+  "@angular/platform-browser@17.3.12": {
     "licenses": "MIT",
     "repository": "https://github.com/angular/angular",
     "publisher": "angular",
     "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/platform-browser",
     "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/@angular/platform-browser/README.md"
   },
-  "@angular/router@16.2.12": {
+  "@angular/router@17.3.12": {
     "licenses": "MIT",
     "repository": "https://github.com/angular/angular",
     "publisher": "angular",
@@ -62,7 +62,7 @@
     "path": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/tslib",
     "licenseFile": "/Users/Steve/Documents/RAD Studio/Projects/Angular/licenceCreditsNg/node_modules/tslib/LICENSE.txt"
   },
-  "zone.js@0.13.3": {
+  "zone.js@0.14.10": {
     "licenses": "MIT",
     "repository": "https://github.com/angular/angular",
     "publisher": "Brian Ford",
