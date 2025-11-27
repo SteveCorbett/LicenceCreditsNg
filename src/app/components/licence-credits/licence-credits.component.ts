@@ -11,9 +11,10 @@ interface ILicences {
 }
 
 @Component({
-  selector: "app-licence-credits",
-  templateUrl: "./licence-credits.component.html",
-  styleUrls: ["./licence-credits.component.css"],
+    selector: "app-licence-credits",
+    templateUrl: "./licence-credits.component.html",
+    styleUrls: ["./licence-credits.component.css"],
+    standalone: false
 })
 export class LicenceCreditsComponent implements OnInit {
   public licences: ILicence[] = [];
