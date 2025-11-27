@@ -1,19 +1,23 @@
 <div class="self">
-    <h1>Your Heading Goes Here</h1>
-    This application uses one or more of the following packages:
-    <div class="panels">
-        <div *ngFor="let item of licences" class="licencePanel">
-            <div class="spaceAfter">
-                Package{{ item.packages.length > 1 ? "s" : "" }}:
-                {{ item.packages.join(", ") }}
-            </div>
-            <div class="spaceAfter" style="display: flex">
-                <span style="min-width: 15rem; margin-right: 1rem">Publisher: {{ item.publisher }}</span>
-                <span>Licence: {{ item.type }}</span>
-            </div>
-            <div *ngIf="item.licence != ''" style="white-space: pre-wrap" class="spaceAfter">
-                {{ item.licence }}
-            </div>
+  <h1>Your Heading Goes Here</h1>
+  This application uses one or more of the following packages:
+  <div class="panels">
+    @for (item of licences; track item) {
+      <div class="licencePanel">
+        <div class="spaceAfter">
+          Package{{ item.packages.length > 1 ? "s" : "" }}:
+          {{ item.packages.join(", ") }}
         </div>
-    </div>
+        <div class="spaceAfter" style="display: flex">
+          <span style="min-width: 15rem; margin-right: 1rem">Publisher: {{ item.publisher }}</span>
+          <span>Licence: {{ item.type }}</span>
+        </div>
+        @if (item.licence != '') {
+          <div style="white-space: pre-wrap" class="spaceAfter">
+            {{ item.licence }}
+          </div>
+        }
+      </div>
+    }
+  </div>
 </div>
