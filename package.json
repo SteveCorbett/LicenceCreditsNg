@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@angular/build": "^22.0.1",
-    "@angular/cli": "~21.1.4",
+    "@angular/cli": "~21.2.15",
     "@angular/compiler-cli": "^22.0.1",
     "license-checker": "^25.0.1",
     "typescript": "~5.9.3"
